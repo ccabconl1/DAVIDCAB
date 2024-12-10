@@ -1,225 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-ES" data-baseurl="https://www.epicgames.com/site">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiki de Git</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma,{ Geneva}, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f6f8fa;
-            color: #24292e;
-        }
-
-        header {
-            background-color: #24292e;
-            color: white;
-            padding: 1rem;
-        }
-
-        header ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        header li {
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-        }
-
-        nav {
-            background-color: #2ea44f;
-            padding: 1rem;
-            width: 250px;
-            position: fixed;
-            height: 100%;
-            left: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav li {
-            padding: 0.5rem;
-            color: white;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        nav li:hover {
-            background-color: #2c974b;
-        }
-
-        main {
-            margin-left: 270px;
-            padding: 2rem;
-        }
-
-        section {
-            background-color: white;
-            border-radius: 6px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-        }
-
-        h1 {
-            color: #24292e;
-            border-bottom: 1px solid #e1e4e8;
-            padding-bottom: 0.5rem;
-        }
-
-        h2 {
-            color: #2ea44f;
-            margin-top: 2rem;
-        }
-
-        ul, ol {
-            padding-left: 2rem;
-        }
-
-        li {
-            margin: 0.5rem 0;
-            line-height: 1.5;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #586069;
-        }
-
-        .info-box {
-            background-color: #f1f8ff;
-            border: 1px solid #c8e1ff;
-            border-radius: 6px;
-            padding: 1rem;
-            margin: 1rem 0;
-        }
-
-        .button {
-            background-color: #2ea44f;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #2c974b;
-        }
-
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            nav {
-                width: 100%;
-                height: auto;
-                position: static;
-            }
-            
-            main {
-                margin-left: 0;
-                padding: 1rem;
-            }
-        }
-    </style>
+    <meta http-equiv="content-language" content="es-ES">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=3.0, minimal-ui">
+    <meta name="host" content="epicgames-node-website-prod-i-047c3878ca7a8bc44">
+    <meta name="worker" content="220">
+    <meta name="theme-color" content="#2a2a2a">
+    <meta name="template:engine" content="pug">
+    <meta name="naver-site-verification" content="cc31df289df7edccd4611d8eb663c89911a81c55">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-title" content="Epic Games">
+    <meta name="application-name" content="Epic Games">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- Resto del código... -->
 </head>
 <body>
-<header>
-    <ul>
-        <li>Documentación de GitHub</li>
-        <li>Version: Free, Pro & Team</li>
-    </ul>
-    <h1>SECTION</h1>
-    <h2>En este artículo</h2>
-    <ul>
-        <li>Acerca de GitHub</li>
-        <li>Acerca de Git</li>
-        <li>¿Dónde empiezo?</li>
-        <li>Pasos siguientes</li>
-        <li>Información personal</li>
-    </ul>
-
-    <h2>Acerca de GitHub</h2>
-    <p>GitHub es una plataforma de desarrollo colaborativo que aloja proyectos utilizando el sistema de control de versiones Git. Permite a los desarrolladores trabajar juntos en proyectos desde cualquier lugar.</p>
-
-    <h2>Acerca de Git</h2>
-    <p>Git es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente durante el desarrollo de software. Es rápido, eficiente y diseñado para manejar proyectos de cualquier tamaño.</p>
-
-    <h2>¿Dónde empiezo?</h2>
-    <p>Para comenzar con Git y GitHub:</p>
-    <ol>
-        <li>Instala Git en tu computadora</li>
-        <li>Crea una cuenta en GitHub</li>
-        <li>Configura Git con tu nombre de usuario y correo electrónico</li>
-        <li>Crea tu primer repositorio en GitHub</li>
-        <li>Clona el repositorio en tu máquina local</li>
-    </ol>
-
-    <h2>Pasos siguientes</h2>
-    <p>Una vez que hayas comenzado:</p>
-    <ol>
-        <li>Aprende los comandos básicos de Git (add, commit, push, pull)</li>
-        <li>Practica creando ramas y fusionándolas</li>
-        <li>Colabora en proyectos de código abierto</li>
-        <li>Explora características avanzadas como GitHub Actions y GitHub Pages</li>
-    </ol>
-
-    <h2>Información personal</h2>
-    <p>Recuerda mantener actualizada tu información personal en GitHub:</p>
-    <ul>
-        <li>Foto de perfil</li>
-        <li>Nombre de usuario</li>
-        <li>Biografía</li>
-        <li>Ubicación</li>
-        <li>Correo electrónico público (si lo deseas)</li>
-    </ul>
-</header>
-<nav>
-    <ul>
-        <li>Póngase en marcha</li>
-        <li>Crear una cuenta</li>
-        <li>Hola Mundo</li>
-        <li>Configure su perfil</li>
-        <li>Encontrar inspiración</li>
-        <li>Descarga de archivos</li>
-        <li>Carga de un proyecto</li>
-        <li>Recursos de Aprendizaje</li>
-        <li>Incorporación</li>
-        <li>Utilizar GitHub</li>
-    </ul>
-</nav>
-<main>
-    <section id="sec-izq">
-        <h1>Acerca de GitHub y Git</h1>
-        <p>Puedes utilizar GitHub y Git para colaborar en el trabajo</p>
-        <h2>Acerca de GitHub</h2>
-        <p>GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.
-
-        Almacenar tu código en un "repositorio" en GitHub te permite:</p>
-        <ul>
-            <li>Presentar o compartir el trabajo</li>
-            <li>Seguir y administrar los cambios en el código a lo largo del tiempo</li>
-            <li>Dejar que otros usuarios revisen el código y realicen sugerencias para mejorarlo</li>
-            <li>Colaborar en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos</li>
-        </ul>
-        <p>El trabajo colaborativo, una de las características fundamentales de GitHub, es posible gracias al software de código abierto Git, en el que se basa GitHub.</p>
-    </section>
-    <section id="sec-der">
-    </section>
-</main>
+    <!-- Contenido del body... -->
 </body>
 </html>
